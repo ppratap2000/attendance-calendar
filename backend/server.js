@@ -5,10 +5,10 @@ const bodyParser = require("body-parser");
 const attendanceRouter = require("./routes/attendance");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 27017;
 
 // Connect to MongoDB
-mongoose.connect("mongodb://localhost/attendance", {
+mongoose.connect("mongodb://localhost:27017/attendance", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

@@ -23,7 +23,7 @@
 }
 
 .attendance-absent {
-  background-color: red;
+  background-color: rgb(235, 229, 229);
   color: rgb(10, 10, 10);
 }
 
