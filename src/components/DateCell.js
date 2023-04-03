@@ -1,4 +1,5 @@
 import React from "react";
+import "./DateCell.css";
 
 const DateCell = ({ date, attendance, onClick }) => {
   const formatDate = (date) => {

@@ -1,0 +1,41 @@
+.date-cell {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  border: 1px solid #000000;
+
+}
+
+.date-cell:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgb(7, 8, 8);
+}
+
+.attendance-present {
+  background-color: green;
+  color: rgb(10, 9, 9);
+}
+
+.attendance-absent {
+  background-color: red;
+  color: rgb(10, 10, 10);
+}
+
+.date {
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.attendance {
+  font-size: 10px;
+}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import DateCell from "./DateCell";
 import Modal from "./Modal";
+import "./Calendar.css";
 
 const Calendar = () => {
   const [dates, setDates] = useState([]);

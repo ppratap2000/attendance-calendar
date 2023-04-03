@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Modal.css";
 
 const Modal = ({ date, attendance, onClose, onUpdate }) => {
   const [present, setPresent] = useState(attendance === "present");
